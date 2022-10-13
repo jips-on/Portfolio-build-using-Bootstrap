@@ -10,20 +10,20 @@
     <title> Personal Portfolio</title>
 </head>
 <body>
-    <div class="section1class">
+    <div>
         <header>
-        <nav>
-           <h2><a href="#" style="text-decoration: none;">My Logo</a></h2>
-            <a href="#" alt="bars"><i class="fa-solid fa-bars"></i></a>
+        <nav class="container-fluid">
+           <h2><a href="#" class="text-decoration-none">My Logo</a></h2>
+           <a href="#" alt="bars"><i class="fa-solid fa-bars"></i></a>
             <ul class="menubar">
-              <a href="#" style="text-decoration: none;"><li>Portfolio</li></a>
-              <a href="#" style="text-decoration: none;"><li>About</li></a>
-              <a href="#" style="text-decoration: none;"><li>Contact</li></a>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
             </ul>
         </nav>
         </header>
-        <section class="section-1">
-          <div>
+        <section>
+          <div class="container">
              <h1>I’m JIPSON <br>
                 Glad to see <br class="hide-on-pc">
                  you!</h1>
@@ -33,12 +33,11 @@
                 experience! If you like what you see and <br class="hide-on-pc">
                 have a project you need coded, don’t <br class="hide-on-pc">hestiate to contact me.</p>
                   <h3>LET'S CONNECT</h3>
-                <ul style="list-style: none;"> 
+                <ul> 
                     <a href="#"><li><img src="./Images/Vector.png" alt="twitter"></li></a>
-                    <a style="text-decoration: none;" href="#"><li>
+                    <a href="#"><li>
                         <img src="./Images/Vector (4).png" alt="linkedin">
-                        <img src="./Images/Vector (5).png" alt="">
-                    </li></a>
+                        <img src="./Images/Vector (5).png" alt=""></li></a>
                     <a href="#"><li><img src="./Images/Vector (3).png" alt="M"></li></a>
                     <a href="#"><li><img src="./Images/Vector (1).png" alt="github"></li></a>
                     <a href="#"><li><img src="./Images/Vector (2).png" alt="victory"></li></a>
@@ -47,9 +46,9 @@
         </section>
       </div>
     <section class="section-2">   
-    <div class="grid-container1">
-           <div class="grid-item1"></div>
-           <div class="grid-item2">
+    <div class="row">
+           <div class="col"><img src="./Images/Snapshoot Portfolio1.png" alt="Snapshoot Portfolio"></div>
+           <div class="col">
             <h2>Tonic</h2>
             <ul class="subhead">
                 <li style="list-style: none;" id="canopy">CANOPY</li>
@@ -66,68 +65,10 @@
                  </ul>
             <button type="submit" class="project-button">See Project</button>
            </div>
-    </div>       
-    <div class="grid-container2">
-            <div class="grid-item1"></div>
-            <div class="grid-item2">
-            <h2>Multi-Post <br>Stories</h2>
-                <ul>
-                    <li style="list-style: none;" id="canopy">CANOPY</li>
-                    <li>Back End Dev</li>
-                    <li>2015</li>
-                </ul>
-                <p>A daily selection of privately<br>
-                     personalized reads; no accounts or<br>
-                      sign-ups required.</p>
-                    <ul style="list-style: none;" class="language-button">
-                        <li><button type="submit" class="html-button">html</button></li> 
-                    <li><button type="submit" class="css-button">css</button></li>
-                  <li><button type="submit" class="javascript-button">javascript</button></li>
-                </ul>  
-                <button type="submit" class="project-button">See Project</button>
-            </div>
-    </div>        
-    <div class="grid-container3"> 
-                <div class="grid-item1"></div>
-                <div class="grid-item2">
-            <h2>Tonic</h2>
-                <ul >
-                    <li style="list-style: none;" id="canopy">CANOPY</li>
-                    <li>Back End Dev</li>
-                    <li>2015</li>
-                </ul>
-                <p>A daily selection of privately<br>
-                     personalized reads; no accounts or<br>
-                      sign-ups required.</p>
-                      <ul style="list-style: none;" class="language-button">
-                        <li><button type="submit" class="html-button">html</button></li> 
-                    <li><button type="submit" class="css-button">css</button></li>
-                  <li><button type="submit" class="javascript-button">javascript</button></li>
-                </ul>   
-                <button type="submit" class="project-button">See Project</button>
-             </div>
-    </div>         
-    <div class="grid-container4"> 
-        <div class="grid-item1"></div>
-              <div class="grid-item2"><h2>Multi-Post <br>Stories</h2>
-         <ul>
-             <li style="list-style: none;" id="canopy">CANOPY</li>
-             <li>Back End Dev</li>
-             <li>2015</li>
-         </ul>
-         <p>A daily selection of privately<br>
-              personalized reads; no accounts or<br>
-               sign-ups required.</p>
-               <ul style="list-style: none;" class="language-button">
-                 <li><button type="submit" class="html-button">html</button></li> 
-             <li><button type="submit" class="css-button">css</button></li>
-           <li><button type="submit" class="javascript-button">javascript</button></li>
-         </ul>  
-         <button type="submit" class="project-button">See Project</button> 
-       </div>
-    </div>
-    <div class="grid-container5"> 
-         <div class="grid-item2"><h2>Multi-Post <br class="hide-on-pc">Stories</h2>
+    </div>                    
+    <div class="row"> 
+         <div class="col">
+            <h2>Multi-Post <br class="hide-on-pc">Stories</h2>
        <ul>
            <li style="list-style: none;" id="canopy">FACEBOOK</li>
            <li>Full Stack Dev</li>
@@ -144,11 +85,11 @@
        </ul>  
        <button type="submit" class="project-button">See Project</button> 
      </div>
-     <div class="grid-item1"></div>
+     <div class="col"><img src="./Images/Snapshoot Portfolio2.png" alt="Snapshoot Portfolio2"></div>
     </div>
-    <div class="grid-container6">
-      <div class="grid-item1"></div>
-      <div class="grid-item2">
+    <div class="row">
+      <div class="col"><img src="./Images/Snapshoot Portfolio3.png" alt="Snapshoot Portfolio3"></div>
+      <div class="col">
        <h2>Facebook 360</h2>
        <ul>
            <li style="list-style: none;" id="canopy">FACEBOOK</li>
@@ -167,8 +108,8 @@
        <button type="submit" class="project-button">See Project</button>
       </div>
     </div> 
-    <div class="grid-container7">
-      <div class="grid-item2">
+    <div class="container">
+      <div class="container">
        <h2>Uber Navigation</h2>
        <ul>
            <li style="list-style: none;" id="canopy">Uber</li>
@@ -186,11 +127,11 @@
             </ul>
        <button type="submit" class="project-button">See Project</button>
       </div>
-      <div class="grid-item1"></div>
+      <div class="container"><img src="./Images/Snapshoot Portfolio4.png" alt="Snapshoot Portfolio4"></div>
     </div>
     </section>
-    <section class="section-3">
-         <div class="for-pc">
+    <section>
+         <div class="container-fluid">
             <h1>About <br>Myself</h1>
         <p>I’m a software developer! I can help you <br class="hide-on-pc">
             build a product, feature or website Look <br class="hide-on-pc">
@@ -209,7 +150,7 @@
             </ul>
             <button type="submit" class="resume">Get my resume</button>
           </div>
-        <div class="for-pc2">
+        <div class="container-fluid">
             <ul style="list-style: none;" class="language-container" >
                 
                     <ul style="list-style: none;" class="super-class">
